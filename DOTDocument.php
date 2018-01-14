@@ -6,9 +6,9 @@
  * @todo
  */
 
-use Symfony\Component\CssSelector\CssSelectorConverter;
-
 namespace Dotcra\Dot;
+
+use Symfony\Component\CssSelector\CssSelectorConverter;
 
 class DOTDocument extends \DOMDocument{
 	private $a;
@@ -16,8 +16,11 @@ class DOTDocument extends \DOMDocument{
 	private $c;
 
 
+	/**
+	 * should return a HTMLCollection
+	 */
 	public function getElementsByClassName($selector){
-		$xpath = new DOMXpath($this);
+		$xpath = new \DOMXpath($this);
 		return $xpath->query($this->cssToXPath("." . $selector));
 	}
 
@@ -25,7 +28,7 @@ class DOTDocument extends \DOMDocument{
 	 * 
 	 */
 	public function querySelectorAll($selector){
-		$xpath = new DOMXpath($this);
+		$xpath = new \DOMXpath($this);
 		return $xpath->query($this->cssToXPath($selector));
 	}
 
@@ -33,7 +36,7 @@ class DOTDocument extends \DOMDocument{
 	 * @selecter 
 	 */
 	public function querySelector($selector){
-		$xpath = new DOMXpath($this);
+		$xpath = new \DOMXpath($this);
 		return $xpath->query($this->cssToXPath($selector))->item(0);
 	}
 

@@ -8,7 +8,7 @@
 
 namespace Dotcra\Dot;
 
-class DOTNode{
+class DOTNode extends \DOMNode{
 	private $firstElementChild;
 	private $lastElementChild;
 	private $nextElementSibling;

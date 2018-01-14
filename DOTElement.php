@@ -8,6 +8,8 @@
 
 namespace Dotcra\Dot;
 
+use Dotcra\Dot\DOTNode;
+
 class DOTElement extends DOTNode{
 	private $firstElementChild;
 	private $lastElementChild;

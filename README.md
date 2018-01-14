@@ -1,4 +1,4 @@
-### DOT - a DOM manipulator that extends DOM
+# DOT - a DOM manipulator that extends DOM
 
 ## Installation
 ```
@@ -6,7 +6,7 @@ composer require dotcra/dot
 ```
 
 ## Usage
-```
+```php
 <?php
 
 require 'vendor/autoload.php';

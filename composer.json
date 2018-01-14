@@ -1,0 +1,22 @@
+{
+    "name": "dotcra/dot",
+    "description": "a DOM manipulator which extends DOM",
+    "keywords": [],
+    "authors": [
+		{
+			"name": "Dot Craft",
+			"email": "composer@dotcra.com",
+			"homepage": "https://dotcra.com",
+			"role": "Developer"
+		}
+	],
+    "homepage": "https://github.com/dotcra/dot",
+	"license": "GPL-3.0",
+    "require": {
+        "php": "^7.0",
+		"symfony/css-selector": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"Dotcra\\Dot\\": ""}
+	}
+}

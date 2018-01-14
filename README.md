@@ -1,4 +1,6 @@
-# DOT - a DOM manipulator that extends the DOM extension.
+## About
+
+a DOM manipulator that extends the DOM extension.
 
 ## Installation
 ```

@@ -6,6 +6,8 @@
  * @todo
  */
 
+namespace Dotcra\Dot;
+
 class DOTNode{
 	private $firstElementChild;
 	private $lastElementChild;

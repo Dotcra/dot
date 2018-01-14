@@ -1,6 +1,6 @@
 {
     "name": "dotcra/dot",
-    "description": "a DOM manipulator that extends DOM",
+    "description": "a DOM manipulator that extends the DOM extension.",
     "keywords": [],
     "authors": [
 		{

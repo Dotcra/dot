@@ -11,7 +11,7 @@
 		}
 	],
     "homepage": "https://github.com/dotcra/dot",
-	"license": "GPL-3.0",
+	"license": "GPL-2.0-only",
     "require": {
         "php": "^7.0",
 		"symfony/css-selector": "~4.0"
